@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300,700');
+
+:root {
+  --color: #3c3163;
+  --transition-time: 0.5s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Open Sans';
+}
+
+
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+      url("girl-power-team-vector-23067178.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav {
+    width: 100%;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+    /*background: red;*/
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav .menu a:first-child {
+    color: #F265A7;
+  }
+  nav .menu a:hover {
+    color: #F265A7;
+  }
+  main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  
+  section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  section .btnone {
+    /*background: #00b894;*/
+    background: #fff;
+    color: #000;
+  }
+  
+  .btnone:hover {
+    background: #F265A7;
+    color: white;
+  }
+  
+  section .btntwo {
+    background: #F265A7;
+    color: white;
+  }
+  
+  .btntwo:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #F265A7;
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "Rights";
+    }
+    20% {
+      content: "Health";
+    }
+    35% {
+      content: "helpline";
+    }
+    60% {
+      content: "schemes";
+    }
+    80% {
+      content: "jobs";
+    }
+    100% {
+      content: "laws";
+    }
+  }
+
+
+
+
+  .astras{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(Learn\ 5\ Distinctive\ Ways\ To\ Advance\ Your\ Career\ Today.jpg);
+    background-size:cover;
+  }
+    .services h1{
+      text-transform: uppercase;
+      font-size: 30px;
+      text-align: center;
+      color: #fff;
+      padding:20px;
+    }
+    .cen{
+      max-width: 1200px;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px;
+    }
+    .service{
+      background-color: rgba(250, 9, 82, 0.432);
+      display: inline-block;
+      width: calc(95% / 3);
+      height: 250px;
+      margin: 4px 5px;
+      padding: 20px;
+      box-sizing: border-box;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+    .service:hover{
+      background: #316ff46c;
+      color: #fff;
+    }
+  
+    .service h2{
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin: 0;
+    }
+    .service p{
+      color: rgba(57, 51, 51, 0.875);
+      font-size: 15px;
+      font-weight: 500;
+      height: 100%;
+      width: 100%;
+      position: relative; top: 30%;
+    }
+    .service p:hover{
+      color: #fff;
+    }
+
+
+    .about{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(rgba(248, 97, 167, 0.603), rgba(239, 91, 155, 0.542)),url(Sketchy\ Duo.jpg);
+        background-size:cover;
+      }
+      .about h1{
+        text-transform: uppercase;
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+        padding:20px;
+      }
+ .about p{
+  
+    padding: 100px;
+    text-align: justify;
+    color: rgb(22, 22, 29);
+    font-size: large;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+ }
+
+
+
+
+
+
+
+a {
+  color: inherit;
+}
+
+.cards-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  padding: 4rem;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.card {
+  font-family: 'Heebo';
+  --bg-filter-opacity: 0.5;
+  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
+  height: 20em;
+  width: 15em;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  border-radius: 1em;
+  padding: 1em;
+  /*margin: 2em;*/
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+  transition: all, var(--transition-time);
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #ccc;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: rotate(0);
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+.card p {
+  font-size: 0.75em;
+  font-family: 'Open Sans';
+  margin-top: 0.5em;
+  line-height: 2em;
+}
+
+.card .tags {
+  display: flex;
+}
+
+.card .tags .tag {
+  font-size: 0.75em;
+  background: rgba(255,255,255,0.5);
+  border-radius: 0.3rem;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  line-height: 1.5em;
+  transition: all, var(--transition-time);
+}
+
+.card:hover .tags .tag {
+  background: var(--color);
+  color: white;
+}
+
+.card .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  padding: 1em;
+  line-height: 1em;
+  opacity: .8;
+}
+.card:before, .card:after {
+  content: '';
+  transform: scale(0);
+  transform-origin: top left;
+  border-radius: 50%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  z-index: -5;
+  transition: all, var(--transition-time);
+  transition-timing-function: ease-in-out;
+}
+
+.card:before {
+  background: #ddd;
+  width: 250%;
+  height: 250%;
+}
+
+.card:after {
+  background: white;
+  width: 200%;
+  height: 200%;
+}
+
+.card:hover {
+  color: var(--color);
+}
+
+.card:hover:before, .card:hover:after {
+  transform: scale(1);
+}
+
+.card-grid-space .num {
+  font-size: 3em;
+  margin-bottom: 1.2rem;
+  margin-left: 1rem;
+}
+
+.info {
+  font-size: 1.2em;
+  display: flex;
+  padding: 1em 3em;
+  height: 3em;
+}
+
+.info img {
+  height: 3em;
+  margin-right: 0.5em;
+}
+num{
+  color: #ec6e88;
+}
+.info h1 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1285px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.formarea{
+  height: 100vh;
+  width: 100%;
+background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://wallpapercave.com/wp/wp4506069.jpg);
+background-size: cover;
+}
+.form{
+padding: 15px;
+border: 1px solid black;
+width: 340px;
+height: 450px;
+background-color: rgba(0, 0, 0, 0.35);
+border-radius: 15px;
+position: relative;
+top: 10%;
+left: 40%;
+}
+form span{
+color: rgb(242, 155, 155);
+}
+
+.para{
+text-align:center;
+font-size: 25px;
+color: #fff;
+padding: 10px 0;
+}
+
+
+
+.chnging:after {
+content: "";
+animation: chngtext 5s infinite linear;
+color: #fff;
+}
+
+@keyframes chngtext {
+0% {
+  content: "GET IN TOUCH";
+}
+50% {
+  content: "QUESTION";
+}
+100% {
+  content: "SUGGESTION";
+}
+}
+
+input[type=text],
+input[type=email]{
+width: 95%;
+padding: 10px;
+margin: 10px;
+border: none;
+border-radius: 10px;
+}
+input[type=text]:hover,
+input[type=email]:hover{
+border: 1px solid #ec6e88 ;
+}
+textarea{
+border: none;
+width: 95%;
+height: 50px;
+padding: 10px;
+margin: 10px;
+border-radius:10px ;
+}
+input[type=submit]{
+width: 50%;
+padding: 10px;
+margin: 10px 78px;
+border: 2px solid #ef6876;
+border-radius: 15px;
+}
+input[type=submit]:hover{
+background-color: #fd61718a;
+color: #fff;
+}
+
+
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #add9f4;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
